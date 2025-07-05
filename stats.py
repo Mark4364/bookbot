@@ -10,10 +10,6 @@ def count_char(book):
             char_dict[c.lower()] += 1
         else:
             char_dict[c.lower()] = 1
-    char_dict['t'] = 29493
-    char_dict['p'] = 5952
-    char_dict['c'] = 9011
-    char_dict['e'] = 44538
     return char_dict
 
 def sort_on(item):
